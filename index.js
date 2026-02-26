@@ -20,7 +20,7 @@ const app = express();
 
 // Connect Database (ONLY ONCE)
 connectDB();
-
+app.listen(3000, () => { console.log(`🚀 Server running on http://localhost:3000`); });
 // Middleware
 app.use(express.json());
 app.use(cors());

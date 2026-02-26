@@ -65,6 +65,7 @@ exports.add = async (req, res, next) => {
       },
     });
   } catch (err) {
+    console.log("Error creating reference:", err);
     next(err);
   }
 };
