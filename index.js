@@ -14,6 +14,8 @@ const projectRoutes = require("./routes/project.routes.js");
 const serviceRoutes = require("./routes/service.routes.js");
 const userRoutes = require("./routes/user.routes.js");
 
+const dns = require('node:dns/promises'); dns.setServers(['1.1.1.1', '8.8.8.8']);
+
 const app = express();
 
 // Connect Database (ONLY ONCE)
