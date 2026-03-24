@@ -1,4 +1,4 @@
-const Project = require("../../models/project.model");
+const Project = require("../Models/project.model");
 
 // GET ALL
 exports.getAll = async (req, res, next) => {
@@ -9,7 +9,7 @@ exports.getAll = async (req, res, next) => {
       title: p.title,
       completion: p.completion,
       description: p.description,
-      id: p._id,
+      _id: p._id,
     }));
 
     res.json({
@@ -35,7 +35,7 @@ exports.getById = async (req, res, next) => {
         title: project.title,
         completion: project.completion,
         description: project.description,
-        id: project._id,
+        _id: project._id,
       },
     });
   } catch (err) {
@@ -55,7 +55,7 @@ exports.add = async (req, res, next) => {
         title: project.title,
         completion: project.completion,
         description: project.description,
-        id: project._id,
+        _id: project._id,
       },
     });
   } catch (err) {

@@ -1,4 +1,4 @@
-const Service = require('../models/service.model');
+const Service = require('../Models/service.model');
 
 // Get All
 exports.getAll = async (req, res, next) => {
@@ -8,7 +8,7 @@ exports.getAll = async (req, res, next) => {
     const formatted = services.map(service => ({
       title: service.title,
       description: service.description,
-      id: service._id
+      _id: service._id
     }));
 
     res.json({
@@ -32,7 +32,7 @@ exports.getById = async (req, res, next) => {
       data: {
         title: service.title,
         description: service.description,
-        id: service._id
+        _id: service._id
       }
     });
   } catch (error) {
@@ -51,7 +51,7 @@ exports.add = async (req, res, next) => {
       data: {
         title: service.title,
         description: service.description,
-        id: service._id
+        _id: service._id
       }
     });
   } catch (error) {

@@ -1,4 +1,4 @@
-const Reference = require("../models/reference.model");
+const Reference = require("../Models/reference.model");
 
 // GET ALL
 exports.getAll = async (req, res, next) => {
@@ -11,7 +11,7 @@ exports.getAll = async (req, res, next) => {
       email: r.email,
       position: r.position,
       company: r.company,
-      id: r._id,
+      _id: r._id,
     }));
 
     res.json({
@@ -39,7 +39,7 @@ exports.getById = async (req, res, next) => {
         email: ref.email,
         position: ref.position,
         company: ref.company,
-        id: ref._id,
+        _id: ref._id,
       },
     });
   } catch (err) {
@@ -61,7 +61,7 @@ exports.add = async (req, res, next) => {
         email: ref.email,
         position: ref.position,
         company: ref.company,
-        id: ref._id,
+        _id: ref._id,
       },
     });
   } catch (err) {

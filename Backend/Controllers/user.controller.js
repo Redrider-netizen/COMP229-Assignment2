@@ -1,4 +1,4 @@
-const User = require("../../models/user.model");
+const User = require("../Models/user.model");
 
 // GET ALL
 exports.getAll = async (req, res, next) => {
@@ -12,7 +12,7 @@ exports.getAll = async (req, res, next) => {
       password: u.password,
       created: u.created,
       updated: u.updated,
-      id: u._id,
+      _id: u._id,
     }));
 
     res.json({
@@ -41,7 +41,7 @@ exports.getById = async (req, res, next) => {
         password: user.password,
         created: user.created,
         updated: user.updated,
-        id: user._id,
+        _id: user._id,
       },
     });
   } catch (err) {
@@ -64,7 +64,7 @@ exports.add = async (req, res, next) => {
         password: user.password,
         created: user.created,
         updated: user.updated,
-        id: user._id,
+        _id: user._id,
       },
     });
   } catch (err) {
