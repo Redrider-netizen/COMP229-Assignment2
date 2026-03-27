@@ -6,7 +6,7 @@ const createError = require("http-errors");
 const morgan = require("morgan");
 const cors = require("cors");
 console.log("MONGO_URI =", process.env.MONGO_URI);
-const connectDB = require("/config/mongoDB.js");
+const connectDB = require("./config/mongoDB.js");
 //let app = require('./config/express.js');
 
 const referenceRoutes = require("./routes/reference.routes.js");
