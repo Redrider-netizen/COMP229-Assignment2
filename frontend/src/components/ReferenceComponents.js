@@ -148,16 +148,16 @@ export const ReferenceList = ({ references = [], onEdit, onDelete, loading = fal
   };
 
   if (loading) {
-    return <div className="loading">Loading contacts...</div>;
+    return <div className="loading">Loading References...</div>;
   }
 
   return (
     <div className="list-container">
-      <h2>Contacts List</h2>
+      <h2>References List</h2>
       {error && <div className="error">{error}</div>}
       
       {references.length === 0 ? (
-        <div className="empty">No contacts found. Add one to get started!</div>
+        <div className="empty">No References found. Add one to get started!</div>
       ) : (
         <table>
           <thead>

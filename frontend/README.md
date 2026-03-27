@@ -1,6 +1,6 @@
 # COMP229 Assignment - React Frontend
 
-A comprehensive React frontend for managing Users, Projects, Services, and Contacts with forms, list pages, and state management.
+A comprehensive React frontend for managing Users, Projects, Services, and References with forms, list pages, and state management.
 
 ## Project Structure
 
@@ -18,7 +18,7 @@ frontend/
 │   │   ├── UsersPage.js           # Users page with full CRUD
 │   │   ├── ProjectsPage.js        # Projects page with full CRUD
 │   │   ├── ServicesPage.js        # Services page with full CRUD
-│   │   └── ReferencesPage.js      # Contacts page with full CRUD
+│   │   └── ReferencesPage.js      # References page with full CRUD
 │   ├── services/
 │   │   └── api.js                 # API utility functions for backend communication
 │   ├── App.js                     # Main app component with routing
@@ -56,11 +56,11 @@ frontend/
   - Uses useReducer for form state
 - `ServiceList`: Display all services in a table with edit/delete buttons
 
-#### ReferenceComponents (Contacts)
-- `ReferenceForm`: Form for adding and editing contacts
+#### ReferenceComponents (References)
+- `ReferenceForm`: Form for adding and editing References
   - Fields: First Name, Last Name, Email, Position, Company
   - Uses useReducer for form state
-- `ReferenceList`: Display all contacts in a table with edit/delete buttons
+- `ReferenceList`: Display all References in a table with edit/delete buttons
 
 ### Pages
 
@@ -131,7 +131,7 @@ The backend should provide these endpoints:
 - `PUT /services/:id` - Update service
 - `DELETE /services/:id` - Delete service
 
-### References (Contacts)
+### References (References)
 - `GET /references` - List all references
 - `GET /references/:id` - Get reference by ID
 - `POST /references` - Create reference

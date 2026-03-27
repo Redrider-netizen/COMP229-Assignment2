@@ -62,7 +62,7 @@ All endpoints are prefixed with `/api/`:
 
 **Fields:** `title`, `description`
 
-### References (Contacts) API
+### References (References) API
 - `GET /api/references` - Get all references
 - `GET /api/references/:id` - Get reference by ID
 - `POST /api/references` - Create new reference

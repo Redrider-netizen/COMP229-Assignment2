@@ -30,7 +30,7 @@ export default function App() {
           </li>
           <li>
             <Link to="/references" onClick={() => setCurrentPage('references')}>
-              Contacts
+              References
             </Link>
           </li>
         </ul>

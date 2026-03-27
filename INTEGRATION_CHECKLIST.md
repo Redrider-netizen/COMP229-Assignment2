@@ -19,7 +19,7 @@
 - [x] UserComponents: Create, Read, Update, Delete users
 - [x] ProjectComponents: Create, Read, Update, Delete projects
 - [x] ServiceComponents: Create, Read, Update, Delete services
-- [x] ReferenceComponents: Create, Read, Update, Delete contacts
+- [x] ReferenceComponents: Create, Read, Update, Delete References
 - [x] Each component properly handles API responses
 - [x] Error handling on all API calls
 - [x] Loading states during async operations
@@ -123,7 +123,7 @@ The app will open at http://localhost:3000 (or another available port).
 Repeat the above for:
 - Projects (fill title, description, completion date)
 - Services (fill title, description)
-- Contacts (fill firstname, lastname, email, position, company)
+- References (fill firstname, lastname, email, position, company)
 
 ### Step 5: Verify Data Persistence
 

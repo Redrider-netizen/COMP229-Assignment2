@@ -64,7 +64,7 @@ Frontend runs on: http://localhost:3000 (or next available port)
 - **Users**: Create, Read, Update, Delete users (firstname, lastname, email, password)
 - **Projects**: Create, Read, Update, Delete projects (title, description, completion date)
 - **Services**: Create, Read, Update, Delete services (title, description)
-- **Contacts**: Create, Read, Update, Delete contacts (firstname, lastname, email, position, company)
+- **References**: Create, Read, Update, Delete References (firstname, lastname, email, position, company)
 
 ### ✅ Frontend Features
 - Professional forms with validation
