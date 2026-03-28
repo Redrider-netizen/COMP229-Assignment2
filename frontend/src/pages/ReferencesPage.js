@@ -42,7 +42,7 @@ export const ReferencesPage = () => {
 
   return (
     <div className="container">
-      <h1>Contact Management</h1>
+      <h1>Reference Management</h1>
       <ReferenceForm onSave={handleSave} editingReference={editingReference} onCancel={handleCancel} />
       <ReferenceList references={references} onEdit={handleEdit} onDelete={handleDelete} loading={loading} />
     </div>
