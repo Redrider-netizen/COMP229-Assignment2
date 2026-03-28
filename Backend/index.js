@@ -32,6 +32,39 @@ app.use("/api/projects", projectRoutes);
 app.use("/api/services", serviceRoutes);
 app.use("/api/users", userRoutes);
 
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Welcome to the COMP229 Assignment 2 API',
+    apis: {
+      references: {
+        "GET /api/references": "Retrieve all references",
+        "GET /api/references/:id": "Retrieve a specific reference by ID",
+        "POST /api/references": "Create a new reference",
+        "PUT /api/references/:id": "Update an existing reference by ID"
+      },
+      projects: {
+        "GET /api/projects": "Retrieve all projects",
+        "GET /api/projects/:id": "Retrieve a specific project by ID",
+        "POST /api/projects": "Create a new project",
+        "PUT /api/projects/:id": "Update an existing project by ID"
+      },
+      services: {
+        "GET /api/services": "Retrieve all services",
+        "GET /api/services/:id": "Retrieve a specific service by ID",
+        "POST /api/services": "Create a new service",
+        "PUT /api/services/:id": "Update an existing service by ID"
+      },
+      users: {
+        "GET /api/users": "Retrieve all users",
+        "GET /api/users/:id": "Retrieve a specific user by ID",
+        "POST /api/users": "Create a new user",
+        "PUT /api/users/:id": "Update an existing user by ID"
+      }
+    }
+  });
+});
+
+
 // 404 handler
 app.use((req, res, next) => {
   next(createError(404, "Endpoint not found"));
@@ -45,7 +78,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
