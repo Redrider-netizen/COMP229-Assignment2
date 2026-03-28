@@ -1,6 +1,6 @@
 ﻿const express = require("express");
 const router = express.Router();
-const controller = require("../controllers/reference.controller");
+const controller = require("../Controllers/reference.controller");
 
 router.get("/", controller.getAll);
 router.get("/:id", controller.getById);
