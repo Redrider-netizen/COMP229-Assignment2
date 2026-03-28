@@ -59,7 +59,7 @@ export const ReferenceForm = ({ onSave, editingReference, onCancel }) => {
 
   return (
     <div className="form-container">
-      <h2>{editingReference ? 'Edit Contact' : 'Add New Contact'}</h2>
+      <h2>{editingReference ? 'Edit Reference' : 'Add New Reference'}</h2>
       {error && <div className="error">{error}</div>}
       
       <form onSubmit={handleSubmit}>
