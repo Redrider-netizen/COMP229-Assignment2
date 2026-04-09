@@ -1,4 +1,5 @@
-const mongoose = require("mongoose");
+const path = require("path");
+const mongoose = require(path.resolve(__dirname, "../../node_modules/mongoose"));
 
 const connectDB = async () => {
   try {

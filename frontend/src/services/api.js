@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000'; // Backend API URL
+const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001'; // Backend API URL
 
 const api = axios.create({
   baseURL: BASE_URL,
@@ -61,6 +61,12 @@ export const referenceAPI = {
   create: (data) => api.post('/api/references', data),
   update: (id, data) => api.put(`/api/references/${id}`, data),
   delete: (id) => api.delete(`/api/references/${id}`),
+};
+
+// Auth API calls
+export const authAPI = {
+  register: (data) => api.post('/api/auth/register', data),
+  login: (data) => api.post('/api/auth/login', data),
 };
 
 export default api;
