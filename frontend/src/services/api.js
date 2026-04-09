@@ -4,10 +4,12 @@ const isBrowser = typeof window !== 'undefined';
 const isLocalHost =
   isBrowser &&
   (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+const isRenderHost = isBrowser && window.location.hostname.endsWith('.onrender.com');
+const RENDER_BACKEND_FALLBACK_URL = 'https://portfolio-backend.onrender.com';
 
 const BASE_URL =
   process.env.REACT_APP_API_URL ||
-  (isLocalHost ? 'http://localhost:3001' : '');
+  (isLocalHost ? 'http://localhost:3001' : isRenderHost ? RENDER_BACKEND_FALLBACK_URL : '');
 
 const api = axios.create({
   baseURL: BASE_URL,
