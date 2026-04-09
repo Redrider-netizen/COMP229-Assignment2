@@ -1,8 +1,13 @@
 import axios from 'axios';
 
+const isBrowser = typeof window !== 'undefined';
+const isLocalHost =
+  isBrowser &&
+  (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
+
 const BASE_URL =
   process.env.REACT_APP_API_URL ||
-  (process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3001');
+  (isLocalHost ? 'http://localhost:3001' : '');
 
 const api = axios.create({
   baseURL: BASE_URL,
