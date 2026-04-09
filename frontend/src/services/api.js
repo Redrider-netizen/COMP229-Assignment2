@@ -5,7 +5,7 @@ const isLocalHost =
   isBrowser &&
   (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
 const isRenderHost = isBrowser && window.location.hostname.endsWith('.onrender.com');
-const RENDER_BACKEND_FALLBACK_URL = 'https://portfolio-backend.onrender.com';
+const RENDER_BACKEND_FALLBACK_URL = 'https://comp229-assignment2-1.onrender.com';
 
 const BASE_URL =
   process.env.REACT_APP_API_URL ||
