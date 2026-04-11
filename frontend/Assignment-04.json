@@ -1,0 +1,159 @@
+{
+  "title": "Assignment-04",
+  "steps": [
+    {
+      "type": "setViewport",
+      "width": 1136,
+      "height": 898,
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": false,
+      "isLandscape": false
+    },
+    {
+      "type": "navigate",
+      "url": "https://comp229-assignment2-1.onrender.com/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "https://comp229-assignment2-1.onrender.com/",
+          "title": "COMP229 Assignment - User Management"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [["aria/Sign Up"], ["text/Sign Up"]]
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["#signup-firstname"]],
+      "value": "Bruce"
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["#signup-lastname"]],
+      "value": "Wanye"
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["#signup-email"]],
+      "value": "Batman@gmail.com"
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["#signup-password"]],
+      "value": "Bruce"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [["aria/Sign Up[role=\"button\"]"], ["text/Sign Up"]]
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["#signup-password"]],
+      "value": "nightwing"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [["aria/Sign Up[role=\"button\"]"], ["text/Sign Up"]]
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["#signin-email"]],
+      "value": "Batman@gmail.com"
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["#signin-password"]],
+      "value": "Nightwing"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [["aria/Sign In[role=\"button\"]"], ["text/Sign In"]]
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["#signin-password"]],
+      "value": "nightwing"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [["aria/Sign In[role=\"button\"]"], ["text/Sign In"]]
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [["aria/Projects"], ["text/Projects"]]
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["label:nth-of-type(1) > input"]],
+      "value": "Wanye Industries"
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["textarea"]],
+      "value": "Batman"
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["label:nth-of-type(3) > input"]],
+      "value": "2026-04-11"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [["aria/Add Project"], ["text/Add Project"]]
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [["tr:nth-of-type(2) button.btn-edit"]]
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["label:nth-of-type(1) > input"]],
+      "value": "Wanye inc."
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["textarea"]],
+      "value": "Batman"
+    },
+    {
+      "type": "change",
+      "target": "main",
+      "selectors": [["label:nth-of-type(3) > input"]],
+      "value": "2026-04-12"
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [["aria/Update Project"], ["text/Update Project"]]
+    },
+    {
+      "type": "click",
+      "target": "main",
+      "selectors": [["aria/Sign Out"], ["text/Sign Out"]]
+    }
+  ]
+}
