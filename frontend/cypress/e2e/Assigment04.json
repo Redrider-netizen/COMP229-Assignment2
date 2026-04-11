@@ -1,0 +1,1103 @@
+{
+    "title": "Assigment04",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1136,
+            "height": 898,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://comp229-assignment2-1.onrender.com/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://comp229-assignment2-1.onrender.com/",
+                    "title": "COMP229 Assignment - User Management"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Sign Up"
+                ],
+                [
+                    "li:nth-of-type(3) > a"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/nav/ul/li[3]/a"
+                ],
+                [
+                    "pierce/li:nth-of-type(3) > a"
+                ],
+                [
+                    "text/Sign Up"
+                ]
+            ],
+            "offsetY": 25.66666603088379,
+            "offsetX": 45.010406494140625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/First Name"
+                ],
+                [
+                    "#signup-firstname"
+                ],
+                [
+                    "xpath///*[@id=\"signup-firstname\"]"
+                ],
+                [
+                    "pierce/#signup-firstname"
+                ]
+            ],
+            "offsetY": 17.916656494140625,
+            "offsetX": 90
+        },
+        {
+            "type": "change",
+            "value": "Test1",
+            "selectors": [
+                [
+                    "aria/First Name"
+                ],
+                [
+                    "#signup-firstname"
+                ],
+                [
+                    "xpath///*[@id=\"signup-firstname\"]"
+                ],
+                [
+                    "pierce/#signup-firstname"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Last Name"
+                ],
+                [
+                    "#signup-lastname"
+                ],
+                [
+                    "xpath///*[@id=\"signup-lastname\"]"
+                ],
+                [
+                    "pierce/#signup-lastname"
+                ]
+            ],
+            "offsetY": 16.33331298828125,
+            "offsetX": 98
+        },
+        {
+            "type": "change",
+            "value": "US",
+            "selectors": [
+                [
+                    "aria/Last Name"
+                ],
+                [
+                    "#signup-lastname"
+                ],
+                [
+                    "xpath///*[@id=\"signup-lastname\"]"
+                ],
+                [
+                    "pierce/#signup-lastname"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "s",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "User1",
+            "selectors": [
+                [
+                    "aria/Last Name"
+                ],
+                [
+                    "#signup-lastname"
+                ],
+                [
+                    "xpath///*[@id=\"signup-lastname\"]"
+                ],
+                [
+                    "pierce/#signup-lastname"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#signup-email"
+                ],
+                [
+                    "xpath///*[@id=\"signup-email\"]"
+                ],
+                [
+                    "pierce/#signup-email"
+                ]
+            ],
+            "offsetY": 25.75,
+            "offsetX": 34
+        },
+        {
+            "type": "change",
+            "value": "TE",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#signup-email"
+                ],
+                [
+                    "xpath///*[@id=\"signup-email\"]"
+                ],
+                [
+                    "pierce/#signup-email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "e",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "TestU",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#signup-email"
+                ],
+                [
+                    "xpath///*[@id=\"signup-email\"]"
+                ],
+                [
+                    "pierce/#signup-email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "u",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "TestUser1@gmail.com",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#signup-email"
+                ],
+                [
+                    "xpath///*[@id=\"signup-email\"]"
+                ],
+                [
+                    "pierce/#signup-email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#signup-password"
+                ],
+                [
+                    "xpath///*[@id=\"signup-password\"]"
+                ],
+                [
+                    "pierce/#signup-password"
+                ]
+            ],
+            "offsetY": 39.1666259765625,
+            "offsetX": 86
+        },
+        {
+            "type": "change",
+            "value": "123456",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#signup-password"
+                ],
+                [
+                    "xpath///*[@id=\"signup-password\"]"
+                ],
+                [
+                    "pierce/#signup-password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Sign Up[role=\"button\"]"
+                ],
+                [
+                    "button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/button"
+                ],
+                [
+                    "pierce/button"
+                ]
+            ],
+            "offsetY": 40.90625,
+            "offsetX": 183
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#signin-email"
+                ],
+                [
+                    "xpath///*[@id=\"signin-email\"]"
+                ],
+                [
+                    "pierce/#signin-email"
+                ]
+            ],
+            "offsetY": 12.33331298828125,
+            "offsetX": 252
+        },
+        {
+            "type": "change",
+            "value": "TestUser1@gmail.com",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#signin-email"
+                ],
+                [
+                    "xpath///*[@id=\"signin-email\"]"
+                ],
+                [
+                    "pierce/#signin-email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#signin-password"
+                ],
+                [
+                    "xpath///*[@id=\"signin-password\"]"
+                ],
+                [
+                    "pierce/#signin-password"
+                ]
+            ],
+            "offsetY": 21.75,
+            "offsetX": 188
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyUp",
+            "key": "Shift",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "123456",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#signin-password"
+                ],
+                [
+                    "xpath///*[@id=\"signin-password\"]"
+                ],
+                [
+                    "pierce/#signin-password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Sign In[role=\"button\"]"
+                ],
+                [
+                    "button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/form/button"
+                ],
+                [
+                    "pierce/button"
+                ]
+            ],
+            "offsetY": 18.48956298828125,
+            "offsetX": 202
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Projects"
+                ],
+                [
+                    "li:nth-of-type(3) > a"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/nav/ul/li[3]/a"
+                ],
+                [
+                    "pierce/li:nth-of-type(3) > a"
+                ],
+                [
+                    "text/Projects"
+                ]
+            ],
+            "offsetY": 29.66666603088379,
+            "offsetX": 58.854156494140625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Project Title:"
+                ],
+                [
+                    "label:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[1]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(1) > input"
+                ]
+            ],
+            "offsetY": 40.8125,
+            "offsetX": 222
+        },
+        {
+            "type": "change",
+            "value": "A",
+            "selectors": [
+                [
+                    "aria/Project Title:"
+                ],
+                [
+                    "label:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[1]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(1) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "a",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Assigment04",
+            "selectors": [
+                [
+                    "aria/Project Title:"
+                ],
+                [
+                    "label:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[1]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(1) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "offsetY": 25.885406494140625,
+            "offsetX": 240
+        },
+        {
+            "type": "change",
+            "value": "S",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "s",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyUp",
+            "key": "Shift",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "D",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "d",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Demo Test",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Completion Date:"
+                ],
+                [
+                    "label:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[3]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(3) > input"
+                ]
+            ],
+            "offsetY": 39.291656494140625,
+            "offsetX": 513
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Completion Date:"
+                ],
+                [
+                    "label:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[3]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(3) > input"
+                ]
+            ],
+            "offsetY": 27.291656494140625,
+            "offsetX": 520
+        },
+        {
+            "type": "change",
+            "value": "2026-04-11",
+            "selectors": [
+                [
+                    "aria/Completion Date:"
+                ],
+                [
+                    "label:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[3]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(3) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#root > div"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div"
+                ],
+                [
+                    "pierce/#root > div"
+                ]
+            ],
+            "offsetY": 649,
+            "offsetX": 234
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Add Project"
+                ],
+                [
+                    "div.form-container button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/div/button"
+                ],
+                [
+                    "pierce/div.form-container button"
+                ],
+                [
+                    "text/Add Project"
+                ]
+            ],
+            "offsetY": 32.95831298828125,
+            "offsetX": 90
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "tr:nth-of-type(3) button.btn-edit"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[2]/table/tbody/tr[3]/td[4]/div/button[1]"
+                ],
+                [
+                    "pierce/tr:nth-of-type(3) button.btn-edit"
+                ]
+            ],
+            "offsetY": 12.1353759765625,
+            "offsetX": 19.95831298828125
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Project Title:"
+                ],
+                [
+                    "label:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[1]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(1) > input"
+                ]
+            ],
+            "offsetY": 25.8125,
+            "offsetX": 349
+        },
+        {
+            "type": "change",
+            "value": "A",
+            "selectors": [
+                [
+                    "aria/Project Title:"
+                ],
+                [
+                    "label:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[1]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(1) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "a",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Assigment04",
+            "selectors": [
+                [
+                    "aria/Project Title:"
+                ],
+                [
+                    "label:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[1]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(1) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "offsetY": 29.885406494140625,
+            "offsetX": 322
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Project Title:"
+                ],
+                [
+                    "label:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[1]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(1) > input"
+                ]
+            ],
+            "offsetY": 17.8125,
+            "offsetX": 158
+        },
+        {
+            "type": "change",
+            "value": "Assigment04_update",
+            "selectors": [
+                [
+                    "aria/Project Title:"
+                ],
+                [
+                    "label:nth-of-type(1) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[1]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(1) > input"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "offsetY": 54.885406494140625,
+            "offsetX": 140
+        },
+        {
+            "type": "change",
+            "value": "D",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "d",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Shift"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Backspace"
+        },
+        {
+            "type": "keyUp",
+            "key": "Backspace",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "U",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "Shift",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Update D",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "d",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Update Demo Test",
+            "selectors": [
+                [
+                    "aria/Description:"
+                ],
+                [
+                    "textarea"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[2]/textarea"
+                ],
+                [
+                    "pierce/textarea"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Completion Date:"
+                ],
+                [
+                    "label:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[3]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(3) > input"
+                ],
+                [
+                    "text/2026-04-11"
+                ]
+            ],
+            "offsetY": 35.2916259765625,
+            "offsetX": 231
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Completion Date:"
+                ],
+                [
+                    "label:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[3]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(3) > input"
+                ],
+                [
+                    "text/2026-04-11"
+                ]
+            ],
+            "offsetY": 21.2916259765625,
+            "offsetX": 505
+        },
+        {
+            "type": "change",
+            "value": "2026-04-11",
+            "selectors": [
+                [
+                    "aria/Completion Date:"
+                ],
+                [
+                    "label:nth-of-type(3) > input"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/label[3]/input"
+                ],
+                [
+                    "pierce/label:nth-of-type(3) > input"
+                ],
+                [
+                    "text/2026-04-11"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Update Project"
+                ],
+                [
+                    "button.btn-primary"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div[1]/form/div/button[1]"
+                ],
+                [
+                    "pierce/button.btn-primary"
+                ],
+                [
+                    "text/Update Project"
+                ]
+            ],
+            "offsetY": 26.95831298828125,
+            "offsetX": 113
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Sign Out"
+                ],
+                [
+                    "nav button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/nav/ul/li[6]/button"
+                ],
+                [
+                    "pierce/nav button"
+                ],
+                [
+                    "text/Sign Out"
+                ]
+            ],
+            "offsetY": 24.864583015441895,
+            "offsetX": 57.291656494140625
+        }
+    ]
+}
